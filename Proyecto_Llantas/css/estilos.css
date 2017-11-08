@@ -109,7 +109,6 @@ header a {
     padding: 10px;
 }
 
-
 /*FOOTER*/
 footer {
     background: #00171f;
@@ -119,4 +118,22 @@ footer {
 }
 
 
+#Bserv {
+    background-color: darkred;
+    text-align: center;
+    font-family: sans;
+    color: black;
+    font-size: 20px;
+}
 
+#logoser{
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 10%;
+    shape-margin: 10px;
+    
+}
+
+#info {
+    border-radius: 30px;
+}

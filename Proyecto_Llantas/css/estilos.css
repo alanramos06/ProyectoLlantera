@@ -108,7 +108,6 @@ footer {
     text-align: center;
 }
 
-<<<<<<< HEAD
 /* PRODUCTOS */
 .container{
     width: 100%;
@@ -140,7 +139,6 @@ footer {
     color: black;
 }
 
-<<<<<<< HEAD
 .modal-header{
     color: black;
 }
@@ -173,9 +171,6 @@ footer {
 }
 
 #Bserv{
-=======
-#Bserv {
->>>>>>> Servicios
     background-color: darkred;
     text-align: center;
     font-family: sans;
@@ -188,25 +183,15 @@ footer {
     margin-left: 140px;
     margin-right: 10%;
     shape-margin: 10px;
-<<<<<<< HEAD
 }
 
 #info{
     border-radius: 30px;
 }
 
-=======
->>>>>>> Sucursales
 /* SUCURSALES */
 #logoSucu{
     margin-top: 0%;
     margin-left: 40%;
     margin-right: 40%;
-=======
-    
-}
-
-#info {
-    border-radius: 30px;
->>>>>>> Servicios
 }

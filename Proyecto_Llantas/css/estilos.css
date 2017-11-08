@@ -3,32 +3,26 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+}
+
+#volver{
+    color: black;
 }
 
 header {
     color: #fff;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-}
-
 .logo-menu {
     background: #00171f;
-}
-
-.logo-menu h2 {
-    font-size: 30px;
 }
 
 .logo-menu .menu a{
     display: inline-block;
     padding: 35px 20px;
     font-size: 18px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .logo-menu .menu a:hover{
@@ -70,9 +64,6 @@ header a {
 .main .social ul {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing:border-box;
-    -woz-box-sizing:boreder-box;
-    box-sizing:border-box;
     list-style:none;
     margin-right: 0%;
 }
@@ -109,7 +100,6 @@ header a {
     padding: 10px;
 }
 
-
 /*FOOTER*/
 footer {
     background: #00171f;
@@ -118,5 +108,90 @@ footer {
     text-align: center;
 }
 
+/* PRODUCTOS */
+.container{
+    width: 100%;
 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
+.elemento #astraE, #atosE, #explorerE, #golfE, #pickupE, #sentraE, #silveradoE, #tsuruE{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 10px;
+    shape-margin: 10px;
+    font-size: 20px;
+}
+
+.modal-body{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#txt{
+    color: black;
+}
+
+.modal-header{
+    color: black;
+}
+
+#logoProd{
+    margin-top: 1%;
+    margin-left: 40%;
+    margin-right: 40%;
+    shape-margin: 10px;
+}
+
+#productos{
+    background-color:azure;
+}
+
+/*SERVICIOS*/
+.serv{
+    text-align: center;
+    margin: 10%;
+    margin-top: 0%;
+}
+
+.botones #Ba, #Ali, #Ro, #Ma{
+    margin-top: 5%;
+    margin-left: 40px;
+    margin-right: 10px;
+    shape-margin: 10px;
+    font-size: 20px;
+    border-radius: 5%;
+}
+
+#Bserv{
+    background-color: darkred;
+    text-align: center;
+    font-family: sans;
+    color: black;
+    font-size: 20px;
+}
+
+#logoser{
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-right: 10%;
+    shape-margin: 10px;
+}
+
+#info{
+    border-radius: 30px;
+}
+
+/* SUCURSALES */
+#logoSucu{
+    margin-top: 0%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
